@@ -13,6 +13,7 @@ namespace GitTODO
             while (running)
             {
                 Clear();
+                WriteLine("====")
                 WriteLine("\tMain Menu");
                 WriteLine("\t[1]Add Product");
                 WriteLine("\t[2]Search Product");
